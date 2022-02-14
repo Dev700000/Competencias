@@ -1,0 +1,163 @@
+*{
+
+margin:0px;
+	padding:0px;
+	font-family: arial;
+}
+
+body{
+	
+}
+a{
+	text-align: none;
+	color: black;
+}
+.contenedor{
+	position:fixed;
+	padding-top: 2em;
+	width:180px;
+	height:100%;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9fcf7+65,1fc9e0+99 */
+/* Old browsers */
+	background: #F0FFF0; 
+	overflow:hidden;
+	-webkit-transition:width 0.5s cubic-bezier(.61,.01,.37,1);
+	z-index: 20;
+	color: black;
+}
+
+.menu {
+	background: #3CB371;
+
+
+ /* Old browsers */
+
+}
+.menu li ul li{
+
+	color: black;
+	display: block;
+	padding: 5px 5px;
+	background:#F0FFF0;
+	opacity: 50%;
+}
+.menu  li{
+color: black;
+}
+.menu  ul{
+display: none;
+}
+.menu :hover{
+color: black;
+cursor: pointer;
+}
+.menu li ul li:hover{
+background:white;
+color:black;
+
+}
+.menu .icono {
+	font-size: 12px;
+
+}
+.menu .icono .izquierda{
+	float: left;
+	
+}
+.menu .icono .derecha{
+	float: right;
+	margin-left: : 10px;
+}
+
+.menu ul li a
+{
+	background:white ;
+	color:black ;
+	
+}
+.menu .active > a{
+	background: black
+	color:white;
+
+}
+.boton:hover {
+background: white;
+color:black;
+opacity: .75;
+}
+
+/* ESTILOS DEL CUERPOOOOOOOOOOOOO*/
+ .cuerpo{
+	text-align: center;
+	position:absolute;
+	right:100px;
+	min-height:300px;
+	left:100px;
+	top:5px;
+
+}
+
+ @media only screen and (max-width: 600px) {
+  .cuerpo{
+	text-align: center;
+	position:absolute;
+	right:0px;
+	min-height:300px;
+	left:0px;
+	top:5px;
+
+}
+
+}
+
+.ocultar {
+	display: none;
+}
+#icono{
+	cursor: pointer;
+	position: absolute;
+	left: 0em;
+	top: 0em;
+	width:30px;
+	height:30px;
+	background: url(../img/menu8.png) center; background-size: cover; 
+    z-index: 30;
+}
+.encabezado
+{
+background-image: linear-gradient(to right, #FFFFFF,#B1ECF9, #AAF99C);
+text-align: center;
+padding-top:20px;padding-bottom: 20px;
+padding-left: 900px;
+}
+.footer
+{
+ background-image: linear-gradient(to left, #FFFFFF,#B1ECF9, #AAF99C);
+text-align: center;
+padding-top:20px;padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+.encabezado
+{
+background-image: linear-gradient(to right, #FFFFFF,#B1ECF9, #AAF99C);
+text-align: center;
+padding-top:20px;padding-bottom: 20px;
+padding-left: 0px;
+}
+
+}
+
+.noquieroverteenmobil{
+color: black;
+}
+
+@media only screen and (max-width: 800px) {
+.noquieroverteenmobil{
+	display: none;
+}
+
+}
+/*Extra*/
+  
